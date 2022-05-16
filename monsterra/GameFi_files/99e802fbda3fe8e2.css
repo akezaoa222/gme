@@ -1,0 +1,30 @@
+.tabs_menus__LLF6v {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .1)
+}
+
+.tabs_menu__MkEqd {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: .3s
+}
+
+.tabs_menu__MkEqd.tabs_active__asMRs,
+.tabs_menu__MkEqd:hover {
+    color: #72f34b;
+    transition: .3s
+}
+
+.tabs_menu__MkEqd.tabs_active__asMRs:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 20px;
+    bottom: 0;
+    background-color: #72f34b;
+    transition: .3s
+}
